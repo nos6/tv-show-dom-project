@@ -6,12 +6,14 @@ function setup() {
 
 function makePageForEpisodes(episodeList) {
   const rootElem = document.getElementById("root");
- rootElem.textContent =`Got ${episodeList.length} episode(s)`
   for (let i=0; i < episodeList.length;i++){
   let divElement = document.createElement("div");
- divElement.style.backgroundColor = "green";
+ divElement.style.backgroundColor = "black";
+ divElement.style.border = "2px solid #ff8a00";
+ rootElem.style.textAlign = "center";
+ divElement.style.
   let headName = document.createElement("h4");
-  headName.textContent= episodeList[i].name + episodeList[i].season + episodeList[i].number ;
+  headName.textContent= episodeList[i].name + " -" + " S" + episodeList[i].season + "E" + episodeList[i].number ;
   divElement.appendChild(headName);
 
   let imageTag = document.createElement("img");
