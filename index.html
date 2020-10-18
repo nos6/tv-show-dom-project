@@ -9,12 +9,23 @@
   </head>
 
   <body>
+    <input type="text" id="sehText" placeholder="Search episodes">
+    <select id="dropList">
+      <option  value="script.js">Episodes</option>
+    </select>
+
+    <select id="drop">
+      <option  value="script.js">Shows </option>
+    </select>
+
+    
     <div id="root" class="row">
       <div class="column"></div>
     </div>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
+    <script src="shows.js"></script>
 
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
