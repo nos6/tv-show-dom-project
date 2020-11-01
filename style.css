@@ -5,15 +5,15 @@ body{
 
 #root {
   color: rgb(246, 245, 250);
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
    margin: 10px;
   
 }
  
 .container{
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  display: inline-block;
 }
  
 #drop{
@@ -21,4 +21,8 @@ body{
   background-color:rgb(66, 6, 6);
   color: white;
   
+}
+#dropList{
+  background-color: rgb(66, 6, 6);
+  color: antiquewhite;
 }
