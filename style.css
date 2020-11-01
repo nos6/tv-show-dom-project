@@ -5,7 +5,7 @@ body{
 
 #root {
   color: rgb(246, 245, 250);
-  display: none;
+  display: flex;
    margin: 10px;
   
 }
