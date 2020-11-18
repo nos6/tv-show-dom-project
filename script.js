@@ -26,9 +26,9 @@ function makePageForEpisodes(episodeList) {
   rootElem.textContent =`got ${episodeList.length} episode(s)`
   for (let i=0; i < episodeList.length;i++){
   let divElement = document.createElement("div");
- divElement.style.backgroundColor = "black";
- divElement.style.border = "2px solid #ff8a00";
- rootElem.style.textAlign = "center";
+  divElement.className='tClose';
+ //divElement.style.border = "2px solid #ff8a00";
+// rootElem.style.textAlign = "center";
  
   let headName = document.createElement("h4");
   headName.textContent= " S" + episodeList[i].season + "E" + episodeList[i].number + " - " +episodeList[i].name;
